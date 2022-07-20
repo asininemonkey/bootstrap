@@ -1,0 +1,50 @@
+{
+    "audio": "pipewire",
+    "config_version": "2.5.0",
+    "custom-commands": [
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/beelink/aur.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/beelink/cifs.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/beelink/dkms.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/beelink/es.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/beelink/kiosk.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/beelink/retroarch.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/beelink/miscellaneous.sh' | bash"
+    ],
+    "harddrives": [
+        "/dev/sda"
+    ],
+    "hostname": "beelink",
+    "keyboard-layout": "uk",
+    "ntp": false,
+    "packages": [
+        "cage",
+        "cifs-utils",
+        "dkms",
+        "gamemode",
+        "git",
+        "intel-media-driver",
+        "kitty-terminfo",
+        "libxinerama",
+        "linux-headers",
+        "openssh",
+        "p7zip",
+        "polkit",
+        "retroarch",
+        "retroarch-assets-glui",
+        "tailscale",
+        "vulkan-intel",
+        "xorg-xwayland"
+    ],
+    "script": "guided",
+    "services": [
+        "sshd",
+        "systemd-resolved",
+        "systemd-timesyncd",
+        "tailscaled"
+    ],
+    "swap": false,
+    "sys-encoding": "UTF-8",
+    "sys-language": "en_GB.UTF-8",
+    "timezone": "Europe/London",
+    "version": "2.5.0"
+}

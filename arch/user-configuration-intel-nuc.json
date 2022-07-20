@@ -1,0 +1,65 @@
+{
+    "config_version": "2.5.0",
+    "custom-commands": [
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/aur.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/common.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/dotfiles.sh' | bash",
+        "curl --location --silent 'https://raw.githubusercontent.com/asininemonkey/bootstrap/main/arch/intel-nuc-custom.sh' | bash"
+    ],
+    "harddrives": [
+        "/dev/nvme0n1"
+    ],
+    "hostname": "intel-nuc",
+    "keyboard-layout": "uk",
+    "mirror-region": {
+        "United Kingdom": {
+            "https://mirror.bytemark.co.uk/archlinux/$repo/os/$arch": true,
+            "https://mirror.cov.ukservers.com/archlinux/$repo/os/$arch": true,
+            "https://mirror.netweaver.uk/archlinux/$repo/os/$arch": true
+        }
+    },
+    "nic": {
+        "dhcp": true,
+        "type": "nm"
+    },
+    "ntp": false,
+    "packages": [
+        "btop",
+        "docker",
+        "docker-compose",
+        "fail2ban",
+        "git",
+        "intel-media-driver",
+        "jq",
+        "libva-utils",
+        "man-db",
+        "man-pages",
+        "nano",
+        "p7zip",
+        "prettyping",
+        "python-internetarchive",
+        "samba",
+        "speedtest-cli",
+        "ssh-audit",
+        "starship",
+        "tailscale",
+        "tmux",
+        "tree",
+        "vulkan-intel",
+        "zsh"
+    ],
+    "services": [
+        "docker",
+        "fail2ban",
+        "smb",
+        "sshd",
+        "systemd-resolved",
+        "systemd-timesyncd",
+        "tailscaled"
+    ],
+    "swap": false,
+    "sys-encoding": "UTF-8",
+    "sys-language": "en_GB.UTF-8",
+    "timezone": "Europe/London",
+    "version": "2.5.0"
+}

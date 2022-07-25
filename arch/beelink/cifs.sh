@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 HOME_PATH="/home/retro"
-MOUNT_HOST="172.16.30.229"
+MOUNT_HOST="172.16.30.240"
 
 cat << EOF > "/etc/systemd/system/home-retro-es.automount"
 [Automount]

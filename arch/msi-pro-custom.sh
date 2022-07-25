@@ -2,7 +2,7 @@
 
 HOME_PATH="/home/jcardoso"
 
-MOUNT_HOST="172.16.30.195"
+MOUNT_HOST="172.16.30.240"
 MOUNT_PATH="${HOME_PATH}/Documents/Mounts"
 
 mkdir --parents \
